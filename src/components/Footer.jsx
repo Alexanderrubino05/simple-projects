@@ -23,7 +23,7 @@ export default function Footer() {
       <h1 className="huge-text font-bold">Wanna learn more?</h1>
       <p className="body-text">Check out my other stuff</p>
 
-      <div className="flex gap-4 flex-wrap mt-16">
+      <div className="flex gap-4 flex-wrap mt-16 justify-center items-center">
         {refferences.map((refference) => (
           <a
             className="px-4 sm:px-5 py-1 sm:py-2 border-[1px] border-white rounded-full hover:border-cambridgeBlue transition-colors"
