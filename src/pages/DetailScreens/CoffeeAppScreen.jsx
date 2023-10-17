@@ -5,7 +5,7 @@ import MediumLink from "../../components/detailsComponents/MediumLink";
 import { Projects } from "../../../utils/data";
 
 export default function CoffeeAppScreen() {
-  const project = Projects[0]; //Change this to match
+  const project = Projects[1]; //Change this to match
 
   return (
     <main className="px-8 pb-12 pt-20 text-white flex flex-col gap-y-8">

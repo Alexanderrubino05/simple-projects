@@ -35,10 +35,10 @@ function LandingScreen() {
 
       {/* Projects page */}
       <section className="grid grid-flow-row auto-rows-[100vh] md:auto-rows-[85vh] gap-y-20">
-        {Projects.map((project, index) => (
+        {Projects.toReversed().map((project, index) => (
           <ProjectsCard
             project={project}
-            reversed={index % 2 === 1 ? true : false}
+            reversed={(index + 1) % 2 === 1 ? true : false}
             key={project.description}
           />
         ))}

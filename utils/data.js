@@ -7,18 +7,14 @@ import dndImage2 from "../src/assets/dndSpellsWebsite/image2.webp";
 import CoffeeAppVideo from "../src/assets/coffeeApp/Coffee-App.mp4";
 import CoffeeAppImage1 from "../src/assets/coffeeApp/image1.webp";
 
+// Job Portal Project
+import JobPortalVideo from "../src/assets/jobPortal/Job-Portal.mp4";
+import JobPortalImage1 from "../src/assets/jobPortal/image1.webp";
+import JobPortalImage2 from "../src/assets/jobPortal/image2.webp";
+import JobPortalImage3 from "../src/assets/jobPortal/image3.webp";
+import JobPortalImage4 from "../src/assets/jobPortal/image4.webp";
+
 export const Projects = [
-  {
-    title: "CRUD Coffee App",
-    description:
-      "I have created a fully functional CRUD application, where you can add different types of coffee to your cart, which then can be viewed, deleted or finally purchased.",
-    tags: ["React Native", "Firebase", "TailwindCSS"],
-    images: [CoffeeAppImage1],
-    video: [CoffeeAppVideo],
-    mediumLink:
-      "https://medium.com/@alexrubino05/crud-coffee-app-with-firebase-react-native-81831be69076",
-    path: "coffee-app",
-  },
   {
     title: "D&D Spells Website",
     description:
@@ -31,5 +27,32 @@ export const Projects = [
     projectLink: "https://dnd-spells-ecru.vercel.app/?class=ranger",
     projectLinkText: "https://dnd-spells/",
     path: "dnd-spells-website",
+  },
+  {
+    title: "CRUD Coffee App",
+    description:
+      "I have created a fully functional CRUD application, where you can add different types of coffee to your cart, which then can be viewed, deleted or finally purchased.",
+    tags: ["React Native", "Firebase", "TailwindCSS"],
+    images: [CoffeeAppImage1],
+    video: [CoffeeAppVideo],
+    mediumLink:
+      "https://medium.com/@alexrubino05/crud-coffee-app-with-firebase-react-native-81831be69076",
+    path: "coffee-app",
+  },
+  {
+    title: "Job Portal Website",
+    description:
+      "I have created a fully functional CRUD application, where you can add different types of coffee to your cart, which then can be viewed, deleted or finally purchased.",
+    tags: ["Laravel", "MySQL", "TailwindCSS"],
+    images: [
+      JobPortalImage1,
+      JobPortalImage2,
+      JobPortalImage3,
+      JobPortalImage4,
+    ],
+    video: [JobPortalVideo],
+    mediumLink:
+      "https://medium.com/@alexrubino05/crud-coffee-app-with-firebase-react-native-81831be69076",
+    path: "job-portal",
   },
 ];
