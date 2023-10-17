@@ -40,7 +40,7 @@ export default function TopSection({ project }) {
             <div className="flex flex-col">
               <p className="text-darkGray body-text">See all code</p>
               <a
-                href=""
+                href={project.github}
                 target="blank"
                 className="body-text relative group w-fit"
               >
